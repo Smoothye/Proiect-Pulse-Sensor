@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
 
-const serviceAccount = require('./proiect-pulse-sensor-firebase-adminsdk-oq0mu-5b7fff6ffa.json');
+const serviceAccount = require('./proiect-pulse-sensor-firebase-adminsdk-oq0mu-726ccbe175.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
